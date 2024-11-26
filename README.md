@@ -53,7 +53,7 @@ test_loss, test_acc = model.evaluate(test_images, test_labels)
 print(f'Test accuracy on clean images: {test_acc}')
 ```
 
-![image]()
+![image](https://github.com/Archangel15520/azsii5/blob/main/screenshot/1.JPG)
 
 # Реализация атаки PGD с использованием Foolbox
 
@@ -90,7 +90,7 @@ plt.axis('off')
 plt.show()
 ```
 
-![image]()
+![image](https://github.com/Archangel15520/azsii5/blob/main/screenshot/2.JPG)
 
 # Оценка модели на противоречивых примерах
 
@@ -111,7 +111,7 @@ adversarial_loss, adversarial_acc = model.evaluate(adversarial_images, test_labe
 print(f'Accuracy on adversarial examples (PGD): {adversarial_acc}')
 ```
 
-![image]()
+![image](https://github.com/Archangel15520/azsii5/blob/main/screenshot/3.JPG)
 
 # Вывод:
 
